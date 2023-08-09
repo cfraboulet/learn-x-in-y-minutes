@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "learn-x-in-y-minutes"
+version = "0.1.0"
+description = ""
+authors = ["Frabc75 <cedric.fraboulet@hotmail.com>"]
+readme = "README.md"
+packages = [{include = "learn_x_in_y_minutes"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
